@@ -6,12 +6,16 @@ A fully functional cryptocurrency trading platform built with React, TypeScript,
 
 ## ✨ Features
 
-### 🎨 **Canvas-Based Charting**
-- Custom canvas implementation for high-performance price charts
+### 🎨 **Live Canvas-Based Charting** ⚡
+- **Real-time price updates** every 3 seconds - just like TradingView!
+- **Animated pulsing indicator** at the current price point
+- **Live price line** with dynamic price label
+- Custom canvas implementation for high-performance rendering
 - Multiple timeframes: 24H, 7D, 30D, 90D
 - Interactive crosshair with price tooltips
 - Smooth gradient fills and professional styling
-- Real-time chart updates (every 60 seconds)
+- 60 FPS animations for buttery smooth experience
+- **See [LIVE_CHART_FEATURES.md](./LIVE_CHART_FEATURES.md) for detailed documentation**
 
 ### 💼 **Portfolio Management**
 - Real-time portfolio tracking with P&L calculations
@@ -34,7 +38,7 @@ A fully functional cryptocurrency trading platform built with React, TypeScript,
 
 ### 💱 **Cryptocurrency Market Data**
 - Top 20 cryptocurrencies by market cap
-- Real-time price updates (every 30 seconds)
+- **Live price updates** (crypto list: every 10 seconds, chart: every 3 seconds)
 - 24-hour price change percentages
 - Live pricing via CoinGecko API
 - Crypto list includes: BTC, ETH, USDT, XRP, BNB, USDC, SOL, TRX, DOGE, ADA, AVAX, SHIB, TON, LINK, and more
@@ -99,13 +103,18 @@ src/
 
 ## 🎯 Key Features Explained
 
-### Canvas Chart
-The chart is built with pure HTML5 Canvas for maximum performance:
+### Live Canvas Chart
+The chart is built with pure HTML5 Canvas for maximum performance and real-time updates:
+- **Live updates every 3 seconds** with new price data
+- **Animated pulsing dot** showing live activity
+- **Live price line** (horizontal dashed line) with current price label
 - Custom rendering engine with device pixel ratio support
 - Grid lines with price and time labels
 - Gradient fills under the price line
-- Interactive hover tooltips
+- Interactive hover tooltips with crosshair
 - Responsive to window resizing
+- 60 FPS smooth animations
+- See [LIVE_CHART_FEATURES.md](./LIVE_CHART_FEATURES.md) for full details
 
 ### Trading System
 The platform includes a complete trading system:
