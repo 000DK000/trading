@@ -27,7 +27,7 @@ export default function CryptoList({ onSelectCrypto, selectedCrypto }: CryptoLis
     }
 
     loadCryptos()
-    const interval = setInterval(loadCryptos, 30000)
+    const interval = setInterval(loadCryptos, 10000) // Update every 10 seconds for more live feel
 
     return () => clearInterval(interval)
   }, [onSelectCrypto, selectedCrypto])
