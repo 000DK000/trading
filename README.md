@@ -1,118 +1,199 @@
 # Crypto Trading Platform
 
-A modern cryptocurrency trading platform with live charts and real-time market data powered by CoinGecko API.
+A fully functional cryptocurrency trading platform built with React, TypeScript, and Canvas. Features a professional dark theme, real-time price data, canvas-based charting, portfolio management, and live trading capabilities.
 
-## Features
+![Platform Screenshot](./initial-view.png)
 
-- 🌑 **Dark Theme**: Professional black trading interface
-- 📈 **Live Charts**: TradingView-style line charts with real-time updates
-- 💱 **Multiple Cryptocurrencies**: Track top 20 cryptocurrencies by market cap
-- 📊 **Order Book**: Real-time order book visualization
-- 💰 **Trading Panel**: Buy/Sell interface with amount calculations
-- 🔄 **Auto-Refresh**: Market data updates every 30 seconds, charts every minute
-- 📱 **Responsive Design**: Clean and intuitive user interface
+## ✨ Features
 
-## Tech Stack
+### 🎨 **Canvas-Based Charting**
+- Custom canvas implementation for high-performance price charts
+- Multiple timeframes: 24H, 7D, 30D, 90D
+- Interactive crosshair with price tooltips
+- Smooth gradient fills and professional styling
+- Real-time chart updates (every 60 seconds)
 
-- **Frontend**: React 18 with TypeScript
-- **Build Tool**: Vite
-- **Styling**: TailwindCSS
-- **Charts**: Lightweight Charts (TradingView library)
-- **API**: CoinGecko API (free tier)
-- **HTTP Client**: Axios
+### 💼 **Portfolio Management**
+- Real-time portfolio tracking with P&L calculations
+- View all your positions with detailed metrics:
+  - Amount held
+  - Average buy price
+  - Current price
+  - Profit/Loss percentage
+- Complete transaction history
+- Persistent storage using localStorage
+- Starting balance: $10,000 USD
 
-## Getting Started
+### 📊 **Live Trading**
+- Buy and Sell cryptocurrency with real-time pricing
+- Percentage-based quick trade buttons (25%, 50%, 75%, 100%)
+- Real-time balance and position updates
+- Input validation and error handling
+- Trade confirmation alerts
+- Support for fractional trading
+
+### 💱 **Cryptocurrency Market Data**
+- Top 20 cryptocurrencies by market cap
+- Real-time price updates (every 30 seconds)
+- 24-hour price change percentages
+- Live pricing via CoinGecko API
+- Crypto list includes: BTC, ETH, USDT, XRP, BNB, USDC, SOL, TRX, DOGE, ADA, AVAX, SHIB, TON, LINK, and more
+
+### 🌑 **Professional Dark Theme**
+- TradingView-inspired dark color scheme
+- Dark backgrounds: #0a0e1a, #131722
+- Accent colors: Green (#26a69a) for gains, Red (#ef5350) for losses
+- Smooth scrollbars and polished UI
+- Responsive layout
+
+## 🚀 Getting Started
 
 ### Prerequisites
-
-- Node.js 18+ and npm
+- Node.js (v16 or higher)
+- npm or yarn
 
 ### Installation
 
-1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd crypto-trading-platform
-```
-
-2. Install dependencies:
-```bash
+# Install dependencies
 npm install
-```
 
-3. Start the development server:
-```bash
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-4. Open your browser and navigate to `http://localhost:5173`
+The application will be available at `http://localhost:5173`
 
-## Available Scripts
+### Development Scripts
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-- `npm run type-check` - Run TypeScript type checking
+```bash
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run preview      # Preview production build
+npm run lint         # Run ESLint
+npm run type-check   # Run TypeScript type checking
+```
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 src/
 ├── components/
-│   ├── Header.tsx           # Top navigation bar
-│   ├── CryptoList.tsx       # Cryptocurrency list sidebar
-│   ├── TradingChart.tsx     # Main chart component
-│   ├── OrderBook.tsx        # Order book display
-│   └── TradePanel.tsx       # Buy/Sell trading panel
+│   ├── CanvasChart.tsx      # Canvas-based price chart with interactive features
+│   ├── CryptoList.tsx       # Cryptocurrency list sidebar (20 coins)
+│   ├── Header.tsx           # Top navigation with portfolio summary
+│   ├── Portfolio.tsx        # Portfolio manager with positions & transactions
+│   └── TradePanel.tsx       # Buy/Sell trading interface
 ├── services/
 │   └── coinGeckoApi.ts      # CoinGecko API integration
-├── App.tsx                   # Main application component
+├── App.tsx                   # Main app with state management
 ├── main.tsx                  # Application entry point
-└── index.css                 # Global styles
+└── index.css                 # Global styles & theme
 ```
 
-## Features Overview
+## 🎯 Key Features Explained
 
-### Live Charts
-- Multiple timeframes (24H, 7D, 30D, 90D)
-- Smooth line charts with crosshair
-- Auto-updating price data
-- Professional TradingView-inspired design
+### Canvas Chart
+The chart is built with pure HTML5 Canvas for maximum performance:
+- Custom rendering engine with device pixel ratio support
+- Grid lines with price and time labels
+- Gradient fills under the price line
+- Interactive hover tooltips
+- Responsive to window resizing
 
-### Market Data
-- Real-time prices for top 20 cryptocurrencies
-- 24-hour price change percentages
-- Market cap and trading volume
-- Auto-refresh every 30 seconds
+### Trading System
+The platform includes a complete trading system:
+- **Buy**: Purchase cryptocurrency with your available balance
+- **Sell**: Sell from your existing positions
+- **Position Tracking**: Automatic calculation of average buy price for multiple purchases
+- **P&L Calculation**: Real-time profit/loss tracking
+- **Transaction History**: Complete audit trail of all trades
 
-### Order Book
-- Live bid/ask prices
-- Visual depth representation
-- Real-time spread calculation
-- Color-coded buy/sell orders
+### Portfolio Sidebar
+Shows comprehensive portfolio information:
+- Total portfolio value (cash + holdings)
+- Individual position details
+- Profit/Loss calculations
+- Transaction history with timestamps
+- Tabs for easy navigation between positions and transactions
 
-### Trading Interface
-- Buy/Sell toggle
-- Amount and total calculators
-- Quick percentage buttons (25%, 50%, 75%, 100%)
-- Demo mode (no real trades executed)
+## 🔧 Technology Stack
 
-## API Usage
+- **Frontend**: React 18 with TypeScript
+- **Build Tool**: Vite 5
+- **Styling**: TailwindCSS with custom dark theme
+- **Charts**: Custom Canvas implementation
+- **API**: CoinGecko API v3 (free tier)
+- **HTTP Client**: Axios
+- **State Management**: React hooks (useState, useEffect, useCallback)
+- **Storage**: localStorage for persistence
+- **Linting**: ESLint with TypeScript support
 
-This platform uses the CoinGecko API (free tier) which has the following limits:
-- 10-30 calls/minute
-- No API key required
-- Public data only
+## 📊 API Integration
 
-## Notes
+The platform uses the CoinGecko API (free tier):
+- `/coins/markets` - Top cryptocurrencies data
+- `/coins/{id}/market_chart` - Historical price data
+- No API key required for basic usage
+- Rate limits: 10-30 calls/minute
 
-⚠️ **This is a demo platform for educational purposes only. No real trades are executed.**
+**Note**: If you encounter 401 errors from the API, it's due to rate limiting on the free tier. The chart data may not load, but all trading functionality works independently.
 
-## License
+## 💾 Data Persistence
 
-MIT License - feel free to use this project for learning and development.
+All trading data is stored in your browser's localStorage:
+- Portfolio balance
+- Open positions
+- Transaction history
+- Data persists across browser sessions
 
-## Contributing
+To reset your portfolio, clear your browser's localStorage for the site.
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+## 🎮 How to Use
+
+1. **Select a Cryptocurrency**: Click on any crypto in the left sidebar
+2. **View the Chart**: See price history with different timeframes (24H, 7D, 30D, 90D)
+3. **Make a Trade**: 
+   - Enter the amount you want to buy/sell
+   - Or use quick percentage buttons
+   - Click the Buy/Sell button
+4. **Track Your Portfolio**:
+   - View positions in the right sidebar
+   - Check P&L and transaction history
+   - Monitor total portfolio value
+
+## 📝 Notes
+
+- This is a **demo/educational** platform - no real trades are executed
+- Uses simulated trading with virtual currency ($10,000 starting balance)
+- All calculations are performed locally in the browser
+- Chart data depends on CoinGecko API availability
+
+## 🤝 Contributing
+
+This project is open for contributions:
+- Bug fixes
+- Feature enhancements
+- UI/UX improvements
+- Additional cryptocurrencies
+- More chart indicators
+
+## 📄 License
+
+MIT License - feel free to use this project for learning or as a base for your own trading platform.
+
+## 🙏 Acknowledgments
+
+- CoinGecko for cryptocurrency data
+- TradingView for design inspiration
+- React and TypeScript communities
+
+---
+
+**Happy Trading! 📈💰**

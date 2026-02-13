@@ -1,0 +1,38 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Crypto Trading Platform" [level=1] [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - generic [ref=e10]: Available Balance
+          - generic [ref=e11]: $10,000.00
+        - generic "Live" [ref=e12]
+  - generic [ref=e13]:
+    - generic [ref=e16]: Loading...
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - heading "Select a cryptocurrency" [level=2] [ref=e22]
+        - generic [ref=e23]:
+          - button "24H" [ref=e24] [cursor=pointer]
+          - button "7D" [ref=e25] [cursor=pointer]
+          - button "30D" [ref=e26] [cursor=pointer]
+          - button "90D" [ref=e27] [cursor=pointer]
+      - generic [ref=e29]: Select a cryptocurrency to view chart
+    - generic [ref=e30]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - heading "Total Portfolio Value" [level=3] [ref=e34]
+          - generic [ref=e35]: $10000.00
+          - generic [ref=e36]:
+            - generic [ref=e37]: "Cash: $10000.00"
+            - generic [ref=e38]: "|"
+            - generic [ref=e39]: "Holdings: $0.00"
+        - generic [ref=e40]:
+          - button "Positions (0)" [ref=e41] [cursor=pointer]
+          - button "Transactions" [ref=e42] [cursor=pointer]
+        - generic [ref=e45]: No positions yet. Buy some crypto to get started!
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - button "Buy" [ref=e49] [cursor=pointer]
+          - button "Sell" [ref=e50] [cursor=pointer]
+        - generic [ref=e51]: Select a cryptocurrency to trade

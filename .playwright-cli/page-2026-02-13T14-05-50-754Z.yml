@@ -1,0 +1,269 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - heading "Crypto Trading Platform" [level=1] [ref=e7]
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - img "Bitcoin" [ref=e54]
+            - generic [ref=e55]:
+              - generic [ref=e56]: Bitcoin
+              - generic [ref=e57]: BTC
+          - generic [ref=e59]:
+            - generic [ref=e60]: Price
+            - generic [ref=e61]: $67,230.00
+          - generic [ref=e62]:
+            - generic [ref=e63]: 24h Change
+            - generic [ref=e64]: "-1.10%"
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - generic [ref=e10]: Available Balance
+          - generic [ref=e11]: $9,932.77
+        - generic "Live" [ref=e12]
+  - generic [ref=e13]:
+    - generic [ref=e15]:
+      - heading "Markets" [level=2] [ref=e65]
+      - generic [ref=e66]:
+        - button "Bitcoin BTC -1.13% Bitcoin $67,211" [ref=e266] [cursor=pointer]:
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - img "Bitcoin" [ref=e70]
+              - generic [ref=e71]: BTC
+            - generic [ref=e72]: "-1.13%"
+          - generic [ref=e73]:
+            - generic [ref=e74]: Bitcoin
+            - generic [ref=e75]: $67,211
+        - button "Ethereum ETH -0.68% Ethereum $1,968.78" [ref=e267] [cursor=pointer]:
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - img "Ethereum" [ref=e79]
+              - generic [ref=e80]: ETH
+            - generic [ref=e81]: "-0.68%"
+          - generic [ref=e82]:
+            - generic [ref=e83]: Ethereum
+            - generic [ref=e84]: $1,968.78
+        - button "Tether USDT -0.03% Tether $0.999" [ref=e85] [cursor=pointer]:
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - img "Tether" [ref=e88]
+              - generic [ref=e89]: USDT
+            - generic [ref=e90]: "-0.03%"
+          - generic [ref=e91]:
+            - generic [ref=e92]: Tether
+            - generic [ref=e93]: $0.999
+        - button "XRP XRP -1.36% XRP $1.38" [ref=e268] [cursor=pointer]:
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - img "XRP" [ref=e97]
+              - generic [ref=e98]: XRP
+            - generic [ref=e99]: "-1.36%"
+          - generic [ref=e100]:
+            - generic [ref=e101]: XRP
+            - generic [ref=e102]: $1.38
+        - button "BNB BNB -2.80% BNB $597.7" [ref=e269] [cursor=pointer]:
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - img "BNB" [ref=e106]
+              - generic [ref=e107]: BNB
+            - generic [ref=e108]: "-2.80%"
+          - generic [ref=e109]:
+            - generic [ref=e110]: BNB
+            - generic [ref=e111]: $597.7
+        - button "USDC USDC +0.00% USDC $1" [ref=e270] [cursor=pointer]:
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - img "USDC" [ref=e115]
+              - generic [ref=e116]: USDC
+            - generic [ref=e117]: +0.00%
+          - generic [ref=e118]:
+            - generic [ref=e119]: USDC
+            - generic [ref=e120]: $1
+        - button "Solana SOL -1.85% Solana $80.27" [ref=e271] [cursor=pointer]:
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - img "Solana" [ref=e124]
+              - generic [ref=e125]: SOL
+            - generic [ref=e126]: "-1.85%"
+          - generic [ref=e127]:
+            - generic [ref=e128]: Solana
+            - generic [ref=e129]: $80.27
+        - button "TRON TRX -0.43% TRON $0.277" [ref=e272] [cursor=pointer]:
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - img "TRON" [ref=e133]
+              - generic [ref=e134]: TRX
+            - generic [ref=e135]: "-0.43%"
+          - generic [ref=e136]:
+            - generic [ref=e137]: TRON
+            - generic [ref=e138]: $0.277
+        - button "Dogecoin DOGE -0.60% Dogecoin $0.094" [ref=e273] [cursor=pointer]:
+          - generic [ref=e140]:
+            - generic [ref=e141]:
+              - img "Dogecoin" [ref=e142]
+              - generic [ref=e143]: DOGE
+            - generic [ref=e144]: "-0.60%"
+          - generic [ref=e145]:
+            - generic [ref=e146]: Dogecoin
+            - generic [ref=e147]: $0.094
+        - button "Figure Heloc FIGR_HELOC -0.39% Figure Heloc $1.041" [ref=e148] [cursor=pointer]:
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - img "Figure Heloc" [ref=e151]
+              - generic [ref=e152]: FIGR_HELOC
+            - generic [ref=e153]: "-0.39%"
+          - generic [ref=e154]:
+            - generic [ref=e155]: Figure Heloc
+            - generic [ref=e156]: $1.041
+        - button "WhiteBIT Coin WBT -1.21% WhiteBIT Coin $50.73" [ref=e157] [cursor=pointer]:
+          - generic [ref=e158]:
+            - generic [ref=e159]:
+              - img "WhiteBIT Coin" [ref=e160]
+              - generic [ref=e161]: WBT
+            - generic [ref=e162]: "-1.21%"
+          - generic [ref=e163]:
+            - generic [ref=e164]: WhiteBIT Coin
+            - generic [ref=e165]: $50.73
+        - button "Bitcoin Cash BCH +2.40% Bitcoin Cash $528.67" [ref=e274] [cursor=pointer]:
+          - generic [ref=e167]:
+            - generic [ref=e168]:
+              - img "Bitcoin Cash" [ref=e169]
+              - generic [ref=e170]: BCH
+            - generic [ref=e171]: +2.40%
+          - generic [ref=e172]:
+            - generic [ref=e173]: Bitcoin Cash
+            - generic [ref=e174]: $528.67
+        - button "Cardano ADA -0.41% Cardano $0.266" [ref=e275] [cursor=pointer]:
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - img "Cardano" [ref=e178]
+              - generic [ref=e179]: ADA
+            - generic [ref=e180]: "-0.41%"
+          - generic [ref=e181]:
+            - generic [ref=e182]: Cardano
+            - generic [ref=e183]: $0.266
+        - button "USDS USDS -0.00% USDS $1" [ref=e184] [cursor=pointer]:
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - img "USDS" [ref=e187]
+              - generic [ref=e188]: USDS
+            - generic [ref=e189]: "-0.00%"
+          - generic [ref=e190]:
+            - generic [ref=e191]: USDS
+            - generic [ref=e192]: $1
+        - button "LEO Token LEO -2.37% LEO Token $8.28" [ref=e193] [cursor=pointer]:
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - img "LEO Token" [ref=e196]
+              - generic [ref=e197]: LEO
+            - generic [ref=e198]: "-2.37%"
+          - generic [ref=e199]:
+            - generic [ref=e200]: LEO Token
+            - generic [ref=e201]: $8.28
+        - button "Hyperliquid HYPE -2.00% Hyperliquid $30.62" [ref=e276] [cursor=pointer]:
+          - generic [ref=e203]:
+            - generic [ref=e204]:
+              - img "Hyperliquid" [ref=e205]
+              - generic [ref=e206]: HYPE
+            - generic [ref=e207]: "-2.00%"
+          - generic [ref=e208]:
+            - generic [ref=e209]: Hyperliquid
+            - generic [ref=e210]: $30.62
+        - button "Ethena USDe USDE -0.06% Ethena USDe $0.999" [ref=e277] [cursor=pointer]:
+          - generic [ref=e212]:
+            - generic [ref=e213]:
+              - img "Ethena USDe" [ref=e214]
+              - generic [ref=e215]: USDE
+            - generic [ref=e216]: "-0.06%"
+          - generic [ref=e217]:
+            - generic [ref=e218]: Ethena USDe
+            - generic [ref=e219]: $0.999
+        - button "Monero XMR -0.07% Monero $338.6" [ref=e278] [cursor=pointer]:
+          - generic [ref=e221]:
+            - generic [ref=e222]:
+              - img "Monero" [ref=e223]
+              - generic [ref=e224]: XMR
+            - generic [ref=e225]: "-0.07%"
+          - generic [ref=e226]:
+            - generic [ref=e227]: Monero
+            - generic [ref=e228]: $338.6
+        - button "Canton CC -5.23% Canton $0.16" [ref=e229] [cursor=pointer]:
+          - generic [ref=e230]:
+            - generic [ref=e231]:
+              - img "Canton" [ref=e232]
+              - generic [ref=e233]: CC
+            - generic [ref=e234]: "-5.23%"
+          - generic [ref=e235]:
+            - generic [ref=e236]: Canton
+            - generic [ref=e237]: $0.16
+        - button "Chainlink LINK -0.54% Chainlink $8.49" [ref=e279] [cursor=pointer]:
+          - generic [ref=e239]:
+            - generic [ref=e240]:
+              - img "Chainlink" [ref=e241]
+              - generic [ref=e242]: LINK
+            - generic [ref=e243]: "-0.54%"
+          - generic [ref=e244]:
+            - generic [ref=e245]: Chainlink
+            - generic [ref=e246]: $8.49
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - heading "Bitcoin" [level=2] [ref=e247]
+        - generic [ref=e248]: "-1.10%"
+      - generic [ref=e23]:
+        - button "24H" [ref=e24] [cursor=pointer]
+        - button "7D" [ref=e25] [cursor=pointer]
+        - button "30D" [ref=e26] [cursor=pointer]
+        - button "90D" [ref=e27] [cursor=pointer]
+    - generic [ref=e30]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - heading "Total Portfolio Value" [level=3] [ref=e34]
+          - generic [ref=e35]: $10000.00
+          - generic [ref=e36]:
+            - generic [ref=e37]: "Cash: $9932.77"
+            - generic [ref=e38]: "|"
+            - generic [ref=e39]: "Holdings: $67.23"
+          - generic [ref=e280]: +$0.00 (+0.00%)
+        - generic [ref=e40]:
+          - button "Positions (1)" [ref=e281] [cursor=pointer]
+          - button "Transactions" [ref=e42] [cursor=pointer]
+        - generic [ref=e282]:
+          - generic [ref=e283]:
+            - generic [ref=e284]:
+              - generic [ref=e285]: BTC
+              - generic [ref=e286]: Bitcoin
+            - generic [ref=e287]:
+              - generic [ref=e288]: $67.23
+              - generic [ref=e289]: +$0.00
+          - generic [ref=e290]:
+            - generic [ref=e291]:
+              - generic [ref=e292]: "Amount:"
+              - generic [ref=e293]: "0.00100000"
+            - generic [ref=e294]:
+              - generic [ref=e295]: "Avg Buy Price:"
+              - generic [ref=e296]: $67230.00
+            - generic [ref=e297]:
+              - generic [ref=e298]: "Current Price:"
+              - generic [ref=e299]: $67230.00
+            - generic [ref=e300]:
+              - generic [ref=e301]: "P&L:"
+              - generic [ref=e302]: +0.00%
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - button "Buy" [ref=e49] [cursor=pointer]
+          - button "Sell" [ref=e50] [cursor=pointer]
+        - generic [ref=e250]:
+          - generic [ref=e251]: Current Price
+          - generic [ref=e252]: $67230.00
+        - generic [ref=e253]:
+          - generic [ref=e254]: Amount (BTC)
+          - textbox "0.00000000" [ref=e255]
+        - generic [ref=e256]:
+          - generic [ref=e257]: Total (USD)
+          - textbox "0.00" [ref=e258]
+          - generic [ref=e259]: "Available: $9932.77"
+        - generic [ref=e260]:
+          - button "25%" [ref=e261] [cursor=pointer]
+          - button "50%" [ref=e262] [cursor=pointer]
+          - button "75%" [ref=e263] [cursor=pointer]
+          - button "100%" [ref=e264] [cursor=pointer]
+        - button "Buy BTC" [disabled] [ref=e265]
